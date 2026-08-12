@@ -34,7 +34,6 @@ mkdir storage\framework\cache
 mkdir storage\framework\sessions
 mkdir storage\framework\views
 mkdir storage\logs
-mkdir bootstrap\cache
 
 php artisan optimize:clear
 php artisan serve
