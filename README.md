@@ -28,15 +28,21 @@ SHOPIFY_COLLECTION_ID=your_collection_id
 ## Run
 
 Terminal 1: 
-`mkdir storage\framework`
-`mkdir storage\framework\cache`
-`mkdir storage\framework\sessions`
-`mkdir storage\framework\views`
-`mkdir storage\logs`
+```
+mkdir storage\framework
+mkdir storage\framework\cache
+mkdir storage\framework\sessions
+mkdir storage\framework\views
+mkdir storage\logs
+mkdir bootstrap\cache
 
-`php artisan optimize:clear`
-`php artisan serve`
+php artisan optimize:clear
+php artisan serve
+```
 
-Terminal 2: `php artisan queue:work`
+Terminal 2: 
+```
+php artisan queue:work
+```
 
 Open: http://127.0.0.1:8000
